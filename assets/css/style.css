@@ -1,0 +1,150 @@
+/* Reset CSS  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+/* Nguyên tắc
+1. Làm từ ngoài vào trong
+2. Làm từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+*/
+
+/* Các câu hỏi
+1. Vị trí
+2. Kích thước
+3. Màu sắc
+4. Kiểu dáng ( tròn, vuông, kiểu chữ ...)
+*/
+
+.fs-15 {
+    font-size: 15px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-24 {
+    font-family:  "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+}
+.fs-30 {
+    font-family:  "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+}
+.text-black {
+    color: #000000;
+}
+.text-white {
+    color: #ffffff;
+}
+.text-grey {
+    color: #757575;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-opacity {
+    opacity: 0.6;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+.bg-black {
+    background-color: #000000;
+}
+.bg-red {
+    background-color: #f44336;
+}
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#header {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.wrap-header {
+    display: flex;
+}
+
+#header .nav-link {
+    padding: 0 24px;
+    line-height: 46px;
+    display: block;
+}
+ 
+#header .nav-link:hover,
+#header .sub-nav:hover {
+    background-color: #ccc;
+    color: #000000!important;
+}
+
+#header .sub-nav {
+    position: relative;
+}
+
+#header .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 160px;
+    box-shadow: -5px 5px 5px #ccc;
+}
+
+#header .sub-menu .nav-link {
+    color: #000000;
+    line-height: 38px;
+    padding: 0 18px;
+}
+
+#header .sub-nav:hover .sub-menu {
+    display: block;
+}
+
+.arrow-down {
+    font-size: 14px;
+}
+
+#header .search-btn {
+    padding: 14px 24px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+}
+
+#home {
+    
+}
+
+#band {
+    
+}
+
+#tour {
+    
+}
+
+#contact {
+    
+}
+
+#footer {
+    
+}
